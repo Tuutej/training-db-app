@@ -90,14 +90,6 @@ export default function Traininglist() {
       flex: 1,
       cellStyle: { textAlign: "left" },
     },
-    {
-      field: "customer.id",
-      headerName: "Id",
-      sortable: true,
-      filter: true,
-      flex: 1,
-      cellStyle: { textAlign: "left" },
-    },
 
     {
       cellRendererFramework: (params) => (
